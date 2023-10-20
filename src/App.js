@@ -1,11 +1,10 @@
-import React from "react";
-import './App.css';
-import UserTable from "./components/UserTable";
+import "./App.css";
+import Usertable from "./Usertable";
 
 function App() {
   return (
     <div className="App">
-      <UserTable/>
+      <Usertable />
     </div>
   );
 }
