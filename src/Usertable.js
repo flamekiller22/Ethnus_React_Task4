@@ -37,6 +37,8 @@ function Usertable() {
                 <img
                   src={user.image}
                   alt={`${user.firstName} ${user.lastName}`}
+                  width={60}
+                  height={60}
                 />
               </td>
               <td>{user.firstName}</td>
@@ -47,7 +49,6 @@ function Usertable() {
               <td>{user.domain}</td>
               <td>{user.ip}</td>
               <td>{user.university}</td>
-              <td></td>
             </tr>
           ))}
         </tbody>
